@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="task4.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+  
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#" class="active">SkillWeb</a>
+  <div id="myLinks">
+    <a href="#">Learn</a>
+    <a href="#">Roles</a>
+    <a href="#">Progress</a>
+    <a href="#">About us</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <div class="card-group">
+    <div class="card">
+      <img src="download.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Web Development</h5>
+        <button class="button">Learn it!!!</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ml.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">MachineLearning</h5>
+        <button class="button">Learn it!!!</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ai.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Artificial Intelligence</h5>
+        <button class="button">Learn it!!!</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-container">
+  <ul >
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms of Service</a></li>
+  </ul>
+  <p class="copyright">Copyright @2024 SkillWeb All rights reserved.</p>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+</body>
+</html>
